@@ -1,0 +1,16 @@
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\bin\Debug\net5.0\os_case_study02.exe
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\bin\Debug\net5.0\os_case_study02.deps.json
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\bin\Debug\net5.0\os_case_study02.runtimeconfig.json
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\bin\Debug\net5.0\os_case_study02.runtimeconfig.dev.json
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\bin\Debug\net5.0\os_case_study02.dll
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\bin\Debug\net5.0\ref\os_case_study02.dll
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\bin\Debug\net5.0\os_case_study02.pdb
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.csproj.AssemblyReference.cache
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.AssemblyInfoInputs.cache
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.AssemblyInfo.cs
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.csproj.CoreCompileInputs.cache
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.dll
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\ref\os_case_study02.dll
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.pdb
+E:\Learn\Computer Engineering@KMITL\Operating System\Problem\2\os_case_study02\obj\Debug\net5.0\os_case_study02.genruntimeconfig.cache
