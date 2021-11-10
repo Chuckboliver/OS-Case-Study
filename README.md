@@ -1,5 +1,3 @@
-[![Github](https://img.shields.io/github/followers/chuckboliver?label=chuckboliver&logoColor=pink&style=social)](https://github.com/chuckboliver)
-
 # OS Case study
 This repository is a part of ***OPERATING SYSTEMS*** KMITL 2021
 
