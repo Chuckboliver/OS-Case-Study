@@ -1,6 +1,4 @@
-# OS Case study
-This repository is a part of ***OPERATING SYSTEMS*** KMITL 2021
-
+# Case study 01 : Concurrency & Synchronization
 ---
 
 ## Original
