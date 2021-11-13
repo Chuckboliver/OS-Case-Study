@@ -1,6 +1,4 @@
-# OS Case study
-This repository is a part of ***OPERATING SYSTEMS*** KMITL 2021
-
+# Case study 01 : Concurrency & Synchronization
 ---
 
 ## Original
@@ -11,7 +9,7 @@ This repository is a part of ***OPERATING SYSTEMS*** KMITL 2021
 
 ---
 
-## Method 1
+## Version 1
 
 - เพิ่ม Thread เข้าไป รวมเป็น 2 threads
 
@@ -22,7 +20,7 @@ This repository is a part of ***OPERATING SYSTEMS*** KMITL 2021
 
 ---
 
-## Method 2 
+## Version 2 
 
 - ใช้ ***Sum_Global*** เป็น array ที่มีขนาดเท่ากับจำนวน thread
 - ทำการแบ่ง ***Data_Global*** ออกเป็นส่วนๆโดยมีขนาดเท่ากับจำนวน thread
@@ -101,7 +99,7 @@ static void sum(int start, int stop, int tid)
 
 ---
 
-## Method 3 
+## Version 3 
 
 - ทำการแบ่ง ***Data_Global*** ออกเป็นส่วนๆโดยมีขนาดเท่ากับจำนวน thread
 - ใน function ***sum*** มีตัวแปร local variable ไว้บวกค่าจาก ***Data_Global***
@@ -170,7 +168,7 @@ static void sum(int start, int stop)
 
 ---
 
-## Method 4
+## Version 4
 
 - แก้ปัญหาจาก **Method 3**
 - ใช้ Semaphore เพื่อให้แต่ละ thread เข้าไปบวกค่าใน static variable Sum_Global ได้ทีละ 1 thread
@@ -219,7 +217,7 @@ static void sum(int start, int stop)
 
 ---
 
-## Method 5
+## Version 5
 
 - แก้ปัญหาจาก **Method 3**
 - ใช้ Mutex เพื่อให้แต่ละ thread เข้าไปบวกค่าใน static variable Sum_Global ได้ทีละ 1 thread
@@ -267,7 +265,7 @@ static void sum(int start, int stop)
 
 ---
 
-## Method 6 :
+## Version 6 :
 
 - นำ **Method4** มาต่อยอด
 - ใช้ ThreadPool มาช่วยในการจัดการ thread 
