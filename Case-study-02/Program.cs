@@ -13,35 +13,36 @@ namespace OS_Problem_02
 
         static void EnQueue(int eq)
         {
-            Monitor.Enter(_lock);
-            while (Count == 10)
+            lock (_lock)
             {
-                //Console.WriteLine("Queue is full");
-                Monitor.Wait(_lock);
-            }
+                while (Count >= 10)
+                {
+                    //Console.WriteLine("Queue is full");
+                    Monitor.Wait(_lock);
+                }
 
-            TSBuffer[Back] = eq;
-            Back = (Back + 1) % 10;
-            Count++;
-            Monitor.PulseAll(_lock);
-            Monitor.Exit(_lock);
+                TSBuffer[Back] = eq;
+                Back = (Back + 1) % 10;
+                Count++;
+                Monitor.PulseAll(_lock);
+            }
         }
 
         static int DeQueue()
         {
-
-            Monitor.Enter(_lock);
-            while (Count == 0)
+            lock (_lock)
             {
-                //Console.WriteLine("Queue is empty");
-                Monitor.Wait(_lock);
+                while (Count <= 0)
+                {
+                    //Console.WriteLine("Queue is empty");
+                    Monitor.Wait(_lock);
+                }
+                int x = TSBuffer[Front];
+                Front = (Front + 1) % 10;
+                Count--;
+                Monitor.PulseAll(_lock);
+                return x;
             }
-            int dq = TSBuffer[Front];
-            Front = (Front + 1) % 10;
-            Count--;
-
-            Monitor.Exit(_lock);
-            return dq;
         }
 
         static void th01()
@@ -76,8 +77,7 @@ namespace OS_Problem_02
             {
                 j = DeQueue();
                 Console.WriteLine("่j={0} thread: {1}", j, t);
-                Thread.Sleep(5);
-
+                Thread.Sleep(100);
             }
         }
         static void Main(string[] args)

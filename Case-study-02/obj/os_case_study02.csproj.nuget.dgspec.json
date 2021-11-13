@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\2\\os_case_study02\\os_case_study02.csproj": {}
+    "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\OS-Case-Study@github\\Case-study-02\\os_case_study02.csproj": {}
   },
   "projects": {
-    "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\2\\os_case_study02\\os_case_study02.csproj": {
+    "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\OS-Case-Study@github\\Case-study-02\\os_case_study02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\2\\os_case_study02\\os_case_study02.csproj",
+        "projectUniqueName": "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\OS-Case-Study@github\\Case-study-02\\os_case_study02.csproj",
         "projectName": "os_case_study02",
-        "projectPath": "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\2\\os_case_study02\\os_case_study02.csproj",
+        "projectPath": "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\OS-Case-Study@github\\Case-study-02\\os_case_study02.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\2\\os_case_study02\\obj\\",
+        "outputPath": "E:\\Learn\\Computer Engineering@KMITL\\Operating System\\Problem\\OS-Case-Study@github\\Case-study-02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
